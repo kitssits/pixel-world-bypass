@@ -1,1 +1,4 @@
+local GameLibrary = require(game:GetService("ReplicatedStorage"):WaitForChild("Framework"):WaitForChild("Library"))
+GameLibrary.WorldCmds.Load("Void")
+function wait(5)
 game:Shutdown()
